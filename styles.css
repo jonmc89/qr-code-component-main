@@ -20,37 +20,37 @@ body {
 
 .card {
   background-color: #fff;
-  height: 499px;
-  width: 320px;
-  padding: 16px 16px 40px 16px;
-  border-radius: 20px;
+  height: auto;
+  min-width: 340px;
+  max-width: 340px;
+  padding: 1em;
+  border-radius: 1em;
   box-shadow: 5px 5px 20px hsl(0, 0%, 80%);
 }
 
 .qr_code {
-  width: 288px;
+  width: 100%;
   height: auto;
-  border-radius: 10px;
-  margin-bottom: 24px;
+  border-radius: 1em;
+  margin-bottom: 1em;
 }
 
 .card_text {
-  width: 288px;
-  height: 131px;
-  padding: 0 16px;
+  width: 100%;
 }
 
 .text_1 {
-  font-size: 22px;
+  font-size: 1.5em;
   color: #1f314f;
   line-height: 120%;
-  margin-bottom: 16px;
+  margin-bottom: 1em;
   font-weight: bold;
 }
 
 .text_2 {
-  font-size: 15px;
+  font-size: 1.1em;
   color: #68778d;
   line-height: 140%;
   letter-spacing: 0.2px;
+  margin-bottom: 1.4em;
 }
