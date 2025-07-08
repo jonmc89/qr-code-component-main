@@ -4,8 +4,16 @@
   box-sizing: border-box;
 }
 
+:root {
+  --white: #fff;
+  --background: #d5e1fe;
+  --dropshadow: #ccc;
+  --header: #1f314f;
+  --text: #68778d;
+}
+
 body {
-  background-color: #d5e1fe;
+  background-color: var(--background);
   font-family: "Outfit", sans-serif, serif;
   text-align: center;
 }
@@ -19,20 +27,20 @@ body {
 }
 
 .card {
-  background-color: #fff;
+  background-color: var(--white);
   height: auto;
-  min-width: 340px;
-  max-width: 340px;
+  min-width: 21.25em;
+  max-width: 21.25em;
   padding: 1em;
   border-radius: 1em;
-  box-shadow: 5px 5px 20px hsl(0, 0%, 80%);
+  box-shadow: 5px 5px 20px var(--dropshadow);
 }
 
 .qr_code {
   width: 100%;
   height: auto;
   border-radius: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 0.8em;
 }
 
 .card_text {
@@ -41,7 +49,7 @@ body {
 
 .text_1 {
   font-size: 1.5em;
-  color: #1f314f;
+  color: var(--header);
   line-height: 120%;
   margin-bottom: 1em;
   font-weight: bold;
@@ -49,7 +57,7 @@ body {
 
 .text_2 {
   font-size: 1.1em;
-  color: #68778d;
+  color: var(--text);
   line-height: 140%;
   letter-spacing: 0.2px;
   margin-bottom: 1.4em;
