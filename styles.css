@@ -31,7 +31,8 @@ body {
 }
 
 .qr_code {
-  width: 100%;
+  max-width: 100%;
+  width: auto;
   height: auto;
   border-radius: 1em;
   margin-block-end: clamp(0.8em, 2.2vw, 1em);
