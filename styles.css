@@ -1,9 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 :root {
   --white: #fff;
   --lightBlue: #d5e1fe;
@@ -14,7 +8,7 @@
 
 body {
   background-color: var(--lightBlue);
-  font-family: "Outfit", sans-serif, serif;
+  font-family: "Outfit", sans-serif;
   text-align: center;
 }
 
@@ -23,7 +17,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .card {
@@ -56,7 +50,7 @@ body {
 }
 
 .text_2 {
-  font-size: 1.1em;
+  font-size: clamp(1.1em, 2.2vw, 1.2em);
   color: var(--grey);
   line-height: 140%;
   letter-spacing: 0.05rem;
