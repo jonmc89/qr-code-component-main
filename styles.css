@@ -59,10 +59,10 @@ main {
     background-color: var(--white);
     border-radius: 20px;
     box-shadow: 0px 15px 30px var(--box-shadow);
-    height: 31.188rem;
+    max-height: 31.188rem;
     margin-block-end: 50px;
     padding: 16px 16px 40px 16px;
-    width: 20rem;
+    max-width: 20rem;
 }
 
 .qr-code-img {
@@ -85,5 +85,3 @@ main {
     color: hsl(228, 45%, 44%);
     text-decoration: none;
 }
-
-/* Media Queries */
