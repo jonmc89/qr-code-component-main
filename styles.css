@@ -7,7 +7,9 @@
 }
 
 body {
-    font-size: 15px;
+    font-size: 0.938rem;
+    font-family: "Outfit", Arial, Helvetica, sans-serif;
+    background-color: var(--slate-300);
 }
 
 /* Colours */
@@ -21,11 +23,6 @@ body {
 }
 
 /* || Main Styles */
-
-body {
-    font-family: "Outfit", Arial, Helvetica, sans-serif;
-    background-color: var(--slate-300);
-}
 
 /* Typography */
 
@@ -62,10 +59,10 @@ main {
     background-color: var(--white);
     border-radius: 20px;
     box-shadow: 0px 15px 30px var(--box-shadow);
-    height: 499px;
+    height: 31.188rem;
     margin-block-end: 50px;
     padding: 16px 16px 40px 16px;
-    width: 320px;
+    width: 20rem;
 }
 
 .qr-code-img {
