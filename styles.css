@@ -1,0 +1,50 @@
+/* || Global Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+}
+
+/* Colours */
+
+:root {
+    --slate-300: #d6e2f0;
+    --slate-500: #68778d;
+    --slate-900: #1f3251;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: "Outfit";
+    src: url(./fonts/outfit-v15-latin-regular.woff2) format("woff2");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url(./fonts/outfit-v15-latin-700.woff2) format("woff2");
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* || Main Styles */
+
+/* Attribution */
+.attribution {
+    font-size: 0.6875rem;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* Media Queries */
