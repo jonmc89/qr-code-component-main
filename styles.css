@@ -18,25 +18,13 @@ body {
     --slate-900: #1f3251;
 }
 
-/* Fonts */
-
-@font-face {
-    font-family: "Outfit";
-    src: url(./fonts/outfit-v15-latin-regular.woff2) format("woff2");
-    font-display: swap;
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Outfit";
-    src: url(./fonts/outfit-v15-latin-700.woff2) format("woff2");
-    font-display: swap;
-    font-weight: 700;
-    font-style: normal;
-}
-
 /* || Main Styles */
+
+/* Typography */
+
+body {
+    font-family: "Outfit", Arial, Helvetica, sans-serif;
+}
 
 /* Attribution */
 .attribution {
