@@ -14,16 +14,61 @@ body {
 
 :root {
     --slate-300: #d6e2f0;
+    --box-shadow: #c4cfdc;
     --slate-500: #68778d;
     --slate-900: #1f3251;
+    --white: #fff;
 }
 
 /* || Main Styles */
 
-/* Typography */
-
 body {
     font-family: "Outfit", Arial, Helvetica, sans-serif;
+    background-color: var(--slate-300);
+}
+
+/* Typography */
+
+h1 {
+    color: var(--slate-900);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-block-end: 16px;
+}
+
+p {
+    color: var(--slate-500);
+    font-weight: 400;
+    line-height: 140%;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+/* Card */
+
+.card {
+    background-color: var(--white);
+    border-radius: 20px;
+    box-shadow: 0px 15px 30px var(--box-shadow);
+    height: 499px;
+    margin: 50% auto;
+    padding: 16px 16px 40px 16px;
+    width: 320px;
+}
+
+.qr-code-img {
+    border-radius: 10px;
+    height: auto;
+    margin-block-end: 24px;
+    width: 100%;
+}
+
+.text-container {
+    padding: 0 16px;
 }
 
 /* Attribution */
